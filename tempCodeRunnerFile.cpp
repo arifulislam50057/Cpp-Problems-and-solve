@@ -1,9 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    float tempCelcius , tempFahrenheit;
-    cin>>tempCelcius;
-    tempFahrenheit=((1.8)*(tempCelcius))+32;
-    cout<<fixed<<setprecision(3)<<tempFahrenheit<<endl;     
+    char a;
+    int ascii_a;
+    cin>>a;
+    ascii_a= int(a);
+    cout<<ascii_a<<endl;
     return 0;
 }

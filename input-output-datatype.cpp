@@ -90,10 +90,43 @@ int main(){
     return 0;
 }
 
+//7.Write a program to convert days into years, weeks and days.
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    float day , week , month, year;
+    cin>> day;
+    week = day/7;
+    month = day/30;
+    year = day/ 365;
+    cout<<"week: "<<fixed<<setprecision(1)<<week<<endl;
+    cout<<"months: "<<fixed<<setprecision(1)<<month<<endl;
+    cout<<"years: "<<fixed<<setprecision(1)<<year<<endl;
+    return 0;
+}
 
+//Write a program to enter any number and calculate its square root.
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    float a;
+    cin>>a;
+    a= sqrt(a);
+    cout<<a<<endl;
+    return 0;
+}
 
-
-
+//Write a program to find out the ascii value of a character
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    char a;
+    int ascii_a;
+    cin>>a;
+    ascii_a= int(a);
+    cout<<ascii_a<<endl;
+    return 0;
+}
 
 
 
